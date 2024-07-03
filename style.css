@@ -1,0 +1,56 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image:url('header-ffgreg.png');
+    background-size: cover;
+    background-position: center;
+    background:#333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    color: fff;
+    font-style:italic;
+    font-family: 'Courier New', Courier, monospace;
+
+    margin: 0;
+}
+
+section {
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+section h2 {
+    border-bottom: 3px solid #333;
+    padding-bottom: 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
